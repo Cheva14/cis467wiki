@@ -1,0 +1,96 @@
+/* Reset some default styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+h1,
+h2 {
+  color: #333;
+}
+
+/* Style links */
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+/* Style headings with links */
+h1 a,
+h2 a {
+  border-bottom: 2px solid #007bff;
+}
+
+/* Style paragraphs */
+p {
+  margin: 1em 0;
+  line-height: 1.5;
+}
+
+/* Add some padding and background to code blocks */
+code {
+  background-color: #f4f4f4;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+/* Style unordered lists */
+ul {
+  margin-left: 20px;
+  list-style-type: disc;
+}
+
+/* Style list items */
+li {
+  margin: 5px 0;
+}
+
+/* Style blockquotes */
+blockquote {
+  background-color: #f9f9f9;
+  border-left: 3px solid #007bff;
+  margin: 1em 0;
+  padding: 10px 20px;
+}
+
+/* Style links within blockquotes */
+blockquote a {
+  color: #007bff;
+}
+
+/* Style the main content container */
+.Layout-main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style headings within the main content */
+.Layout-main h1,
+.Layout-main h2 {
+  color: #333;
+}
+
+/* Style links within the main content */
+.Layout-main a {
+  color: #007bff;
+}
+
+/* Style the code blocks within the main content */
+.Layout-main code {
+  background-color: #f4f4f4;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+/* Style images within the main content */
+.Layout-main img {
+  max-width: 100%;
+  height: auto;
+}
